@@ -1,0 +1,46 @@
+main{
+    padding: 20px;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.create-user-button {
+    background-color: #004cff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    animation: ease 1s;
+}
+
+.create-user-button:hover {
+    background-color: #2061f9;
+    transform: scale(1.05);
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+.table th {
+    background-color: #f2f2f2;
+}
+
+.btn-ver {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
